@@ -1,0 +1,4 @@
+# Чистый stdlib (urllib, sqlite3, http.server) — ставить через pip нечего.
+# certifi не обязателен (есть safe fallback на дефолтный ssl context),
+# но если на Render вдруг будут проблемы с TLS-сертификатами Telegram API — раскомментируй:
+# certifi
